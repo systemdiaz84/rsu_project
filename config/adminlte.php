@@ -324,7 +324,7 @@ return [
         ],
         [
             'text' => 'Especies',
-            'url'  => 'admin/settings',
+            'route'  => 'admin.species.index',
             'icon' => 'fas fa-fw fa-lock',
         ],
        /* [
@@ -535,5 +535,5 @@ return [
     |
     */
 
-    'livewire' => false,
+    'livewire' => true,
 ];
